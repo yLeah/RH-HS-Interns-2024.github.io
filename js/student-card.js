@@ -4,7 +4,6 @@ const students = [
     "location": "Raleigh, North Carolina",
     "school": "Heritage High School",
     "class": "2025",
-    "playground": "example",
     "pronouns": "He/Him",
     "blog": "example"
   },
@@ -13,7 +12,6 @@ const students = [
     "location": "Raleigh, North Carolina",
     "school": "Wake STEM Early College High School",
     "class": "2025",
-    "playground": "example",
     "pronouns": "She/Her",
     "blog": "example"
   },
@@ -22,7 +20,6 @@ const students = [
     "location": "Boston, Massachusetts",
     "school": "Boston Latin Academy",
     "class": "2025",
-    "playground": "",
     "pronouns": "He/Him",
     "blog": "example"
   },
@@ -31,7 +28,6 @@ const students = [
     "location": "Raleigh, North Carolina",
     "school": "Durham Academy Upper School",
     "class": "2026",
-    "playground": "",
     "pronouns": "He/Him",
     "blog": "example"
   },
@@ -40,7 +36,6 @@ const students = [
     "location": "Boston, Massachusetts",
     "school": "Needham High School",
     "class": "2025",
-    "playground": "",
     "pronouns": "She/Her",
     "blog": "example"
   },
@@ -49,7 +44,6 @@ const students = [
     "location": "Boston, Massachusetts",
     "school": "Shrewsbury",
     "class": "2025",
-    "playground": "",
     "pronouns": "She/Her",
     "blog": "example"
   },
@@ -58,7 +52,6 @@ const students = [
     "location": "Boston, Massachusetts",
     "school": "Buckingham Browne & Nichols",
     "class": "2025",
-    "playground": "",
     "pronouns": "He/Him",
     "blog": "example"
   },
@@ -67,7 +60,6 @@ const students = [
     "location": "Raleigh, North Carolina",
     "school": "Enloe Magnet High School",
     "class": "2025",
-    "playground": "",
     "pronouns": "She/Her",
     "blog": "example"
   },
@@ -76,7 +68,6 @@ const students = [
     "location": "Raleigh, North Carolina",
     "school": "Middle Creek High School",
     "class": "2025",
-    "playground": "",
     "pronouns": "He/Him",
     "blog": "example"
   },
@@ -85,7 +76,6 @@ const students = [
     "location": "Boston, Massachusetts",
     "school": "Westborough High School",
     "class": "2026",
-    "playground": "",
     "pronouns": "He/Him",
     "blog": "example"
   },
@@ -94,7 +84,6 @@ const students = [
     "location": "Raleigh, North Carolina",
     "school": "Wake STEM Early College High School",
     "class": "2026",
-    "playground": "",
     "pronouns": "She/Her",
     "blog": "example"
   },
@@ -103,7 +92,6 @@ const students = [
     "location": "Boston, Massachusetts",
     "school": "Charlestown High School",
     "class": "2025",
-    "playground": "",
     "pronouns": "He/Him",
     "blog": "example"
   }
@@ -144,6 +132,8 @@ for (let student of students) {
     `
   }
 
+  let projectLink = `./interns/${student.name.replace(/\s+/g, '-').toLowerCase()}/index.html`;
+
   html +=
   `
     <div class="pf-v5-c-card" id="student-card">
@@ -157,7 +147,7 @@ for (let student of students) {
       <div class="pf-v5-c-card__footer">
         <a
           class="pf-v5-c-button pf-m-secondary student-page"
-          href=${student.playground}
+          href=${projectLink}
         >Test page</a>
         <a
           class="pf-v5-c-button pf-m-link student-journal"
