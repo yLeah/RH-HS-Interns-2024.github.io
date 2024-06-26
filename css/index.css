@@ -1,0 +1,30 @@
+.view-repo {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.logo {
+  height: 35px;
+}
+
+.banner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.1)
+}
+
+.banner-text {
+  text-align: center;
+}
+
+.banner-image {
+  height: 225px;
+  margin: 16px;
+}
+
+h2.banner-subtitle {
+  font-size: 36px;
+  margin-top: 0;
+}
