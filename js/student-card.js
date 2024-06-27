@@ -110,7 +110,7 @@ for (let student of students) {
     <span class="pf-v5-c-label pf-m-red">
       <span class="pf-v5-c-label__content">
         <span class="pf-v5-c-label__icon">
-          <i class="fas fa-fw fa-info-circle" aria-hidden="true"></i>
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
         </span>
         <span class="pf-v5-c-label__text student-location">${student.location}</span>
       </span>
@@ -124,7 +124,7 @@ for (let student of students) {
     <span class="pf-v5-c-label pf-m-cyan">
       <span class="pf-v5-c-label__content">
         <span class="pf-v5-c-label__icon">
-          <i class="fas fa-fw fa-info-circle" aria-hidden="true"></i>
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
         </span>
         <span class="pf-v5-c-label__text student-location">${student.location}</span>
       </span>
