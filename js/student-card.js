@@ -5,7 +5,6 @@ const students = [
     "school": "Heritage High School",
     "class": "2025",
     "pronouns": "He/Him",
-    "blog": "example"
   },
   {
     "name": "Delanie Blatchford",
@@ -13,7 +12,6 @@ const students = [
     "school": "Wake STEM Early College High School",
     "class": "2025",
     "pronouns": "She/Her",
-    "blog": "example"
   },
   {
     "name": "Jorge Romero",
@@ -21,7 +19,6 @@ const students = [
     "school": "Boston Latin Academy",
     "class": "2025",
     "pronouns": "He/Him",
-    "blog": "example"
   },
   {
     "name": "Kwame Mensah-Boone",
@@ -29,7 +26,6 @@ const students = [
     "school": "Durham Academy Upper School",
     "class": "2026",
     "pronouns": "He/Him",
-    "blog": "example"
   },
   {
     "name": "Leah Wang",
@@ -37,7 +33,6 @@ const students = [
     "school": "Needham High School",
     "class": "2025",
     "pronouns": "She/Her",
-    "blog": "example"
   },
   {
     "name": "Navya Sharma",
@@ -45,7 +40,6 @@ const students = [
     "school": "Shrewsbury",
     "class": "2025",
     "pronouns": "She/Her",
-    "blog": "example"
   },
   {
     "name": "Niyam Badani",
@@ -53,7 +47,6 @@ const students = [
     "school": "Buckingham Browne & Nichols",
     "class": "2025",
     "pronouns": "He/Him",
-    "blog": "example"
   },
   {
     "name": "Sai Sahasra",
@@ -61,7 +54,6 @@ const students = [
     "school": "Enloe Magnet High School",
     "class": "2025",
     "pronouns": "She/Her",
-    "blog": "example"
   },
   {
     "name": "Samuel Hudson Emig",
@@ -69,7 +61,6 @@ const students = [
     "school": "Middle Creek High School",
     "class": "2025",
     "pronouns": "He/Him",
-    "blog": "example"
   },
   {
     "name": "Sushant Santhosh",
@@ -77,7 +68,6 @@ const students = [
     "school": "Westborough High School",
     "class": "2026",
     "pronouns": "He/Him",
-    "blog": "example"
   },
   {
     "name": "Tamara Nicole Medrano",
@@ -85,7 +75,6 @@ const students = [
     "school": "Wake STEM Early College High School",
     "class": "2026",
     "pronouns": "She/Her",
-    "blog": "example"
   },
   {
     "name": "Walter Hernandez",
@@ -93,7 +82,6 @@ const students = [
     "school": "Charlestown High School",
     "class": "2025",
     "pronouns": "He/Him",
-    "blog": "example"
   }
 ];
 
@@ -133,7 +121,7 @@ for (let student of students) {
   }
 
   let projectLink = `./interns/${student.name.replace(/\s+/g, '-').toLowerCase()}/index.html`;
-
+  let journalLink = `./interns/${student.name.replace(/\s+/g, '-').toLowerCase()}/journals/index.html`;
   html +=
   `
     <div class="pf-v5-c-card" id="student-card">
@@ -151,7 +139,7 @@ for (let student of students) {
         >Test page</a>
         <a
           class="pf-v5-c-button pf-m-link student-journal"
-          href=${student.blog}
+          href=${journalLink}
         >Journal entries</a>
       </div>
     </div>
