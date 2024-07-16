@@ -11,3 +11,11 @@ For example, if you had a week1Journal.pdf, you can include it like this in the 
     height="500px">
   </object>
 ```
+
+## About Me
+
+My name is Delanie
+
+I attend Wake STEM Early College High School
+
+I love to play soccer
