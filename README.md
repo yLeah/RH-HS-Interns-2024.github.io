@@ -28,7 +28,7 @@ If you wanted to add a new JS file:
 
 [CSS Introduction](https://www.w3schools.com/css/css_intro.asp)
 
-## Resources
+## Additional resources
 
 If you want to go back to see the GitHub presentation, complete the following steps:
 
