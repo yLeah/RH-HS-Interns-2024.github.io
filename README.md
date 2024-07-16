@@ -27,3 +27,10 @@ If you wanted to add a new JS file:
 [JS Introduction](https://www.w3schools.com/js/js_intro.asp)
 
 [CSS Introduction](https://www.w3schools.com/css/css_intro.asp)
+
+## Additional resources
+
+If you want to go back to see the GitHub presentation, complete the following steps:
+
+1. Select the **interns** folder.
+2. Select the **B.U.I.L.D. EmpowerED Student Engagement_ Introduction to GitHub.pdf** file. 
