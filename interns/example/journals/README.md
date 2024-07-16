@@ -1,3 +1,6 @@
+# About me
+This is a test for editing the readme and creating a PR
+
 # Journals
 
 This is the place you can put your PDF files for your journals.
