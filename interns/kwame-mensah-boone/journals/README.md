@@ -2,7 +2,7 @@
 
 This is the place you can put your PDF files for your journals.
 
-For example, if you had a week1Journal.pdf, you can include it like:
+For example, if you had a week1Journal.pdf, you can include it like this in the index.html file:
 
 ```html
   <object
