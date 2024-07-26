@@ -1,7 +1,67 @@
-* {
-  background-color: white;
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
   text-align: center;
+  color: white;
+  text-shadow: 4px 4px 4px lightskyblue;
+  font-size: 3.5em;
+  word-spacing: 7px;
+  letter-spacing: 4px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px 4px cyan;
+  font-size: 3em;
+  word-spacing: 7px;
+  letter-spacing: 4px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5em;
+  padding-right: 5vw;
+  padding-left: 5vw; 
+  margin: 0 auto;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  word-spacing: 7px;
+}
+
+img {
+  display: block;
+  margin: 0 auto; 
+  width: 20vw;
+}
+
+th {
+  width: 50vw;
+}
+
+#title {
+  border-radius: 25px;
+  border: 4px solid white;
+  padding: 20px;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+#socials img {
+  width: 90px;
+  height: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
